@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Send Form</title>
+</head>
+
+<body>
+    <div class="general">
+        <form action="http://localhost:3003/usuarios" method="POST">
+
+            <fieldset>
+                <legend><b>Simple-form-submit 📋</b></legend>
+                <br>
+                <div class="inputs">
+                    <span>Name:</span>
+                    <input type="text" name="name" id="" placeholder=" Gustavo " required>
+                </div>
+
+                <div class="inputs">
+                    <span>Email:</span>
+                    <input type="text" name="email" id="" placeholder=" Gustvsilva@outlook.com " required>
+                </div>
+
+                <div class="inputs">
+                    <span>Password:</span>
+                    <input type="password" name="password" id="" placeholder="******************"required>
+                </div>
+                <div class="inputs">
+                    <span>Phone:</span>
+                    <input type="text" name="phone" id="" placeholder="+55(11)000-000-000" required>
+                </div>
+
+                <span>Message:</span>
+                <textarea name="message" id="" cols="45" rows="5" placeholder=" leave a message "></textarea>
+
+                <button formaction="http://localhost:3003/usuarios">Incluir</button>
+                <button formaction="http://localhost:3003/usuarios/3">Alterar</button>
+            </form>
+    </div>
+    </fieldset>
+
+
+    </div>
+</body>
+
+</html>

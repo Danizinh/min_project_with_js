@@ -1,0 +1,96 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+html {
+    background-image:url("./img/pexels-ready-made-4022010.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+fieldset {
+    border: 2px solid #3B2A3C;
+    width: 36vh;
+    height: 27vh;
+}
+
+legend {
+    color: #fff;
+    border: 1px solid;
+    padding: 2px;
+    text-align: center;
+    border-radius: 2px;
+}
+span{
+    margin: 3px;
+    font-weight: 600;
+    color: #fff;
+}
+
+input {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+button {
+    padding: 2px 15px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    font-weight: 800;
+    margin-left:28px;
+    border:1px solid #ccc;  
+    background-color: transparent;
+}
+
+
+.general {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:transparent;
+    padding: 15px;
+    /* border-radius: 15px; */
+    width: 36vh;
+    height: 40vh;
+}
+
+::placeholder {
+    font-weight: 800;
+    color: #fff;
+}
+
+
+.inputs {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-weight: 800;
+    width: 93%;
+    margin-left: 10px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: center;
+    margin: 10px;
+}
